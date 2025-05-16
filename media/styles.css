@@ -1,0 +1,26 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: #111;
+    color: #fff;
+    font-family: 'Comic Sans MS', cursive;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  video {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  #flirt-box {
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    background: #ff69b4;
+    border-radius: 10px;
+  }
+  

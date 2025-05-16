@@ -1,31 +1,39 @@
 {
   "name": "puppy-flirts",
   "displayName": "Puppy Flirts",
-  "description": "A cute dog that flirts with you while coding 🐶💘",
+  "description": "A flirty puppy companion in VS Code to brighten your day!",
   "version": "0.0.1",
+  "publisher": "your-name",
   "engines": {
-    "vscode": "^1.70.0"
+    "vscode": "^1.85.0"
   },
+  "categories": [
+    "Other"
+  ],
   "activationEvents": [
-    "onStartupFinished"
+    "onView:flirtyView"
   ],
   "main": "./dist/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "puppy-flirts.start",
-        "title": "Start Puppy Compliments"
-      }
-    ]
+    "views": {
+      "explorer": [
+        {
+          "id": "flirtyView",
+          "name": "Flirty Pup"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "tsc -p ./",
-    "compile": "tsc -p ./"
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/node": "^22.15.18",
-    "@types/vscode": "^1.70.0",
-    "tslint": "^6.1.3",
-    "typescript": "^4.0.0"
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.0.0",
+    "vscode-test": "^1.7.0"
   }
 }
