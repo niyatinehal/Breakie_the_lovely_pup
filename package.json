@@ -18,8 +18,10 @@
     "views": {
       "explorer": [
         {
+          "type": "webview",
           "id": "flirtyView",
-          "name": "Flirty Pup"
+          "name": "Flirty Pup",
+          "icon": "media/dog.png"
         }
       ]
     }
