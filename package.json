@@ -7,6 +7,10 @@
   "engines": {
     "vscode": "^1.85.0"
   },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/niyatinehal/Breakie_the_lovely_pup"
+},
   "categories": [
     "Other"
   ],
