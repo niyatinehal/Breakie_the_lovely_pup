@@ -3,7 +3,7 @@
   "displayName": "Puppy Flirts",
   "description": "A flirty puppy companion in VS Code to brighten your day!",
   "version": "0.0.1",
-  "publisher": "your-name",
+  "publisher": "Breakie",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -20,7 +20,7 @@
         {
           "type": "webview",
           "id": "flirtyView",
-          "name": "Flirty Pup",
+          "name": "Breakie",
           "icon": "media/dog.png"
         }
       ]
