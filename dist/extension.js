@@ -51,7 +51,8 @@ class FlirtyViewProvider {
         <script defer src="${mediaUri('script.js')}"></script>
       </head>
       <body>
-         <video src="${mediaUri('dog_bg.mp4')}" autoplay loop muted></video>
+         <img src="${mediaUri('gray_idle_8fps.gif')}" alt="Flirty Dog" />
+
         <div id="flirt-box">🐶 Loading sweet talk...</div>
       </body>
       </html>
